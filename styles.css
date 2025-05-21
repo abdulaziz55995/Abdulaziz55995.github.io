@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-    background-color: #0066cc;
+    background-color: #cc0000;
     color: white;
     text-decoration: none;
 }
@@ -53,7 +53,7 @@ a:hover {
 
 .small-image-container img {
     width: 100%;
-    height: auto;
+    height: AUTO%;
     border: 2px solid #333;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
