@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> mon premier site web </title>
+    <title>Mon Site Personnel</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="text-container">
-        <h1>Bienvenue dans mon site</h1>
-        <a href="https://www.unchk.sn/" target="_blank">visitez UNCHK</a>
+        <h1 id="welcome-title">Bienvenu dans mon site</h1>
+        <a href="https://www.unchk.sn/" target="_blank" id="unchk-link">visitez UNCHK</a>
     </div>
     
     <div class="text-container">
-        <h2>licence 1 eno mermoz</h2>
-        <h2>ABDUL AZIZ DIALLO</h2>
+        <h2 id="formation">licence 1 eno mermoz</h2>
+        <h2 id="name">ABDUL AZIZ DIALLO</h2>
     </div>
     
     <div class="small-image-container">
-        <img src="image/WhatsApp Image 2025-05-20 at 19.19.43.jpeg" alt="mon image">
-        <div class="phone-number">+221 77 826 85 99 </div>
+        <img src="image/WhatsApp Image 2025-05-20 at 19.19.43.jpeg" alt="mon image" id="profile-image">
+        <div class="phone-number" id="phone-number">+221 77 123 45 67</div>
+    </div>
+
+    <div class="interaction-buttons">
+        <button id="color-changer">Changer les couleurs</button>
+        <button id="animate-image">Animer l'image</button>
+        <button id="show-more">Afficher plus</button>
+    </div>
+
+    <div id="hidden-content" class="hidden">
+        <p>Contenu supplémentaire qui apparaît quand on clique sur le bouton!</p>
     </div>
 
     <script src="script.js"></script>
