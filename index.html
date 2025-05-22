@@ -1,37 +1,63 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Personnel</title>
+    <title>Portfolio - Abdoul Aziz Diallo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="text-container">
-        <h1 id="welcome-title">Bienvenu dans mon site</h1>
-        <a href="https://www.unchk.sn/" target="_blank" id="unchk-link">visitez UNCHK</a>
+    <header>
+        <div class="navbar">
+            <div class="logo">Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">CV</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Rechercher...">
+                <button>Rechercher</button>
+            </div>
+        </div>
+    </header><section class="hero">
+    <div class="hero-content">
+        <h2>Bonjour, je suis <span class="highlight">Abdoul Aziz Diallo</span></h2>
+        <p>Développeur Web & Mobile</p>
+        <p class="description">Passionné par la technologie et le développement d'applications modernes, je conçois des expériences numériques innovantes et efficaces.</p>
+        <button onclick="contactMe()">Discutons</button>
+        <div class="social-icons">
+            <a href="#">IG</a>
+            <a href="#">X</a>
+            <a href="#">Bé</a>
+        </div>
     </div>
-    
-    <div class="text-container">
-        <h2 id="formation">licence 1 eno mermoz</h2>
-        <h2 id="name">ABDUL AZIZ DIALLO</h2>
+    <div class="hero-image">
+        <img src="image/WhatsApp Image 2025-05-20 at 19.19.43.jpeg" alt="Abdoul Aziz Diallo">
     </div>
-    
-    <div class="small-image-container">
-        <img src="image/WhatsApp Image 2025-05-20 at 19.19.43.jpeg " alt="mon image" id="profile-image">
-        <div class="phone-number" id="phone-number">+221  77 826 85 99</div>
-    </div>
+</section>
 
-    <div class="interaction-buttons">
-        <button id="color-changer">Changer les couleurs</button>
-        <button id="animate-image">Animer l'image</button>
-        <button id="show-more">Afficher plus</button>
+<section class="services">
+    <h3>Mes services</h3>
+    <h2>Ce que je fais</h2>
+    <div class="service-cards">
+        <div class="card">
+            <h4>Développement Web</h4>
+            <p>Création de sites modernes, réactifs et optimisés pour tous les appareils.</p>
+        </div>
+        <div class="card">
+            <h4>Développement Mobile</h4>
+            <p>Applications mobiles performantes et intuitives pour Android et iOS.</p>
+        </div>
+        <div class="card">
+            <h4>Design UI/UX</h4>
+            <p>Conception d'interfaces utilisateurs esthétiques et ergonomiques.</p>
+        </div>
     </div>
+</section>
 
-    <div id="hidden-content" class="hidden">
-        <p>Contenu supplémentaire qui apparaît quand on clique sur le bouton!</p>
-    </div>
+<script src="script.js"></script>
 
-    <script src="script.js"></script>
 </body>
 </html>
